@@ -1,5 +1,12 @@
-# Square root of a number using exponent formula
-n = float(input("Enter the number: "))
-sqrt = n ** 0.5
-print ("Square root of the number:", sqrt)
+# Reversing the digits of the number
 
+n = int(input("Enter number: "))
+
+rev = 0
+
+while(n>0):
+
+       dig = n%10
+       rev = rev*10+dig
+       n = n//10
+print("Reverse of the number: ",rev)
